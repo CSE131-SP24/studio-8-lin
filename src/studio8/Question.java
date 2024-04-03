@@ -27,6 +27,10 @@ public class Question {
 		return this.points;
 	}
 	
+	public void getPoints(int add) {
+		this.points = this.points + add;
+	}
+	
 	public String getAnswer() {
 		return this.answer;
 	}
